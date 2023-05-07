@@ -1,1 +1,1 @@
-# alura-armazenando-na-web
+# JavaScript-armazenando-na-web
