@@ -29,7 +29,7 @@ form.addEventListener("submit", (evento) => {
     quantidade.value = ""
 })
 
-function criaElemento(item){
+function criaElemento(item) {
     const novoItem = document.createElement("li")
     novoItem.classList.add("item")
 
@@ -37,7 +37,7 @@ function criaElemento(item){
     quantidadeItem.innerHTML = item.quantidade
     novoItem.appendChild(quantidadeItem)
     novoItem.innerHTML += item.nome
-    
+
     lista.appendChild(novoItem)
 
 }
